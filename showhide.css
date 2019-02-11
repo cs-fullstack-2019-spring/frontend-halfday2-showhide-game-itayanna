@@ -1,6 +1,7 @@
 table {
     /* Use whatever background image (or images) you like */
-    background: url("forest-background.jpg") no-repeat;
+    background: url("villiage.jpeg") no-repeat;
+    background-size: 100%; /*background is now inuyasha*/
     table-layout: fixed;
 }
 

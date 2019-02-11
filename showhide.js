@@ -62,6 +62,7 @@ function setUpTargetsAndPlay(numberOfTargets, displayTimeMs) {
             $("td").off("click");
             $("table").off("click");
             $(".targetImg").show(); // Show where all the targets were hidden
+            launchLevel2()
         }
     });
 
@@ -74,10 +75,22 @@ function setUpTargetsAndPlay(numberOfTargets, displayTimeMs) {
         let imgID = "img" + targetNum;
 
         // Set an IMG for each randomly selected cell along with 'click' event handler
-        $('#' + tdID).append("<img id = " + imgID + " class= 'targetImg' src='bird.png'>");
-        $('#' + imgID).delay(2000).show(0); // Wait 2 seconds then show the targets
+        $('#' + tdID).append("<img id = " + imgID + " class= 'targetImg' src='shard.jpg'>"); // I changed TARGET TO JEWEL SHARD
+        //$('#' + imgID).delay(2000).show(0); // Wait 2 seconds then show the targets
         $('#' + imgID).delay(displayTimeMs).hide(0); // Setup a callback that will hide the images after the specified time
         $('#' + tdID).on("click", clickedTarget);
     }
 
 }
+
+// another level added
+
+function launchLevel2() {
+    var backgraoudChange= document.getElementsByTagName('table');
+    console.log(backgraoudChange);
+    backgraoudChange[0].style.background= "url('darklands.jpeg')";
+    backgraoudChange[0].style.backgroundSize= "100%" ;
+    console.log('it is called')
+    $(".targetImg").remove()
+}
+

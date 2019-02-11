@@ -25,5 +25,7 @@ Some Ideas:
 
 ### I IMPLEMENTED THE FOLLOWING NEW FEATURE(S):
 
+I turned into a innuyasha themed game where you have to find the jewel shards. and i also added another level
+
 
 
