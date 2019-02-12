@@ -1,3 +1,6 @@
+### POINTS: 2	
+### KEY: Multi-level, actual theme, good stuff!
+
 # JavaScript Show/Hide Game
 
 Take this simple show/hide game and make it your own.
